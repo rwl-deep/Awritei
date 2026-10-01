@@ -1,0 +1,33 @@
+# dependencies
+node_modules/
+**/node_modules/
+
+# build output
+dist/
+build/
+.vite/
+coverage/
+
+# environment files
+.env
+.env.*
+!.env.example
+
+# logs
+*.log
+
+# OS/editor noise
+.DS_Store
+Thumbs.db
+
+# secrets and certificates
+*.pem
+*.key
+*.crt
+*.p12
+
+# Python
+__pycache__/
+.venv/
+venv/
+*.pyc
